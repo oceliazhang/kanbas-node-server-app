@@ -8,6 +8,18 @@ import "dotenv/config";
 //import session from "express-session";
 
 
+// Enable All CORS Requests for simplicity
+app.use(cors());
+
+// Or, to enable CORS for specific domains:
+app.use(cors({
+  origin: 'https://655c2ad3e3ebce294ae57455--gilded-khapse-a03d2c.netlify.app' // Replace with your Netlify app's URL
+}));
+
+// ... rest of your server code
+
+
+
 
 const app = express();
 app.use(cors());

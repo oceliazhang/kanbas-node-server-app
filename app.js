@@ -11,8 +11,11 @@ import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
 import session from "express-session";
 
+//const DB_CONNECTION_STRING= 'mongodb+srv://zhangxinjia:Ocelia624%40@kanbas.fsqlno5.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
+mongoose.connect(CONNECTION_STRING);
 
-mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
+//mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
 
 const app = express();
 app.use(

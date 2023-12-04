@@ -21,6 +21,7 @@ db.on('connected', () => {
   console.log(`Database name: ${db.name}`);
 });
 
+
 const app = express();
 app.use(
   cors({

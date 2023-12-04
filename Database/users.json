@@ -1,7 +1,4 @@
 [{
-  "_id": {
-    "$oid": "65580756fed6bb3b501c55f2"
-  },
   "username": "ada",
   "password": "ada123",
   "firstName": "Ada",
@@ -11,9 +8,6 @@
   "role": "ADMIN"
 },
 {
-  "_id": {
-    "$oid": "654f9ec2ea7ead465908d1e3"
-  },
   "username": "white_wizard",
   "password": "mithrandir42",
   "firstName": "Gandalf",
@@ -23,9 +17,6 @@
   "role": "ADMIN"
 },
 {
-  "_id": {
-    "$oid": "654ff56dea7ead465908d1e4"
-  },
   "username": "evenstar",
   "password": "arwen123",
   "firstName": "Arwen",
@@ -35,9 +26,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654ff586ea7ead465908d1e5"
-  },
   "username": "lady_of_light",
   "password": "lothlorien123",
   "firstName": "Galadriel",
@@ -47,9 +35,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc88"
-  },
   "username": "iron_man",
   "password": "stark123",
   "firstName": "Tony",
@@ -59,9 +44,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc89"
-  },
   "username": "dark_knight",
   "password": "wayne123",
   "firstName": "Bruce",
@@ -71,9 +53,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8a"
-  },
   "username": "capt_america",
   "password": "rogers123",
   "firstName": "Steve",
@@ -83,9 +62,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8b"
-  },
   "username": "black_widow",
   "password": "romanoff123",
   "firstName": "Natasha",
@@ -95,9 +71,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8c"
-  },
   "username": "thor_odinson",
   "password": "mjolnir123",
   "firstName": "Thor",
@@ -107,9 +80,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8d"
-  },
   "username": "hulk_smash",
   "password": "banner123",
   "firstName": "Bruce",
@@ -119,9 +89,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8e"
-  },
   "username": "ring_bearer",
   "password": "shire123",
   "firstName": "Frodo",
@@ -131,9 +98,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc8f"
-  },
   "username": "strider",
   "password": "aragorn123",
   "firstName": "Aragorn",
@@ -143,9 +107,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654ffdd3870c092d5441bc90"
-  },
   "username": "elf_archer",
   "password": "legolas123",
   "firstName": "Legolas",
@@ -155,9 +116,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654fff58ea7ead465908d1e7"
-  },
   "username": "pandava_archer",
   "password": "kuru123",
   "firstName": "Arjuna",
@@ -167,9 +125,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654fff6fea7ead465908d1e8"
-  },
   "username": "mithila_princess",
   "password": "ramayana321",
   "firstName": "Sita",
@@ -179,9 +134,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654fff7bea7ead465908d1e9"
-  },
   "username": "mighty_pandava",
   "password": "gadadhari42",
   "firstName": "Bhima",
@@ -191,9 +143,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654fff89ea7ead465908d1ea"
-  },
   "username": "panchali_princess",
   "password": "dharma123",
   "firstName": "Draupadi",
@@ -203,9 +152,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "654fffa9ea7ead465908d1eb"
-  },
   "username": "flute_charmer",
   "password": "mahabharata108",
   "firstName": "Krishna",
@@ -215,9 +161,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "654ffff6ea7ead465908d1ec"
-  },
   "username": "monkey_king",
   "password": "wukong777",
   "firstName": "Sun",
@@ -227,9 +170,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500001ea7ead465908d1ed"
-  },
   "username": "moon_goddess",
   "password": "chang'e123",
   "firstName": "Chang",
@@ -239,9 +179,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "6550000bea7ead465908d1ee"
-  },
   "username": "third_lotus_prince",
   "password": "nezha789",
   "firstName": "Nezha",
@@ -251,9 +188,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500018ea7ead465908d1ef"
-  },
   "username": "warrior_saint",
   "password": "guanyu456",
   "firstName": "Guan",
@@ -263,9 +197,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500022ea7ead465908d1f0"
-  },
   "username": "great_flood_controller",
   "password": "yuthegreat101",
   "firstName": "Yu",
@@ -275,9 +206,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "6550007bea7ead465908d1f1"
-  },
   "username": "magic_lamp_seeker",
   "password": "aladdin123",
   "firstName": "Aladdin",
@@ -287,9 +215,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500086ea7ead465908d1f2"
-  },
   "username": "nightly_storyteller",
   "password": "scheherazade1001",
   "firstName": "Scheherazade",
@@ -299,9 +224,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500090ea7ead465908d1f3"
-  },
   "username": "seven_seas_adventurer",
   "password": "sinbad777",
   "firstName": "Sinbad",
@@ -311,9 +233,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "6550009aea7ead465908d1f4"
-  },
   "username": "cave_opener",
   "password": "openSesame40",
   "firstName": "Ali",
@@ -323,9 +242,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "655000a4ea7ead465908d1f5"
-  },
   "username": "immortal_guide",
   "password": "greenOne786",
   "firstName": "Khidr",
@@ -335,9 +251,6 @@
   "role": "FACULTY"
 },
 {
-  "_id": {
-    "$oid": "655000eeea7ead465908d1f6"
-  },
   "username": "heavenly_warrior",
   "password": "michael777",
   "firstName": "Michael",
@@ -347,9 +260,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "655000f7ea7ead465908d1f7"
-  },
   "username": "divine_messenger",
   "password": "gabriel123",
   "firstName": "Gabriel",
@@ -359,9 +269,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500100ea7ead465908d1f8"
-  },
   "username": "parting_seas",
   "password": "moses10",
   "firstName": "Moses",
@@ -371,9 +278,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500109ea7ead465908d1f9"
-  },
   "username": "giant_slayer",
   "password": "davidKing42",
   "firstName": "David",
@@ -383,9 +287,6 @@
   "role": "STUDENT"
 },
 {
-  "_id": {
-    "$oid": "65500111ea7ead465908d1fa"
-  },
   "username": "heavenly_gatekeeper",
   "password": "peterRock12",
   "firstName": "Peter",

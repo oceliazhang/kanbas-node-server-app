@@ -7,11 +7,9 @@ import Lab5 from "./lab5.js";
 import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import UserRoutes from "./users/routes.js";
-//import session from "express-session";
-import session from "cookie-session";
-//const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
-//const CONNECTION_STRING = 'mongodb://127.0.0.1:27017/kanbas';
-const CONNECTION_STRING = 'mongodb+srv://zhangxinjia:Ocelia624%40@kanbas.fsqlno5.mongodb.net/kanbas?retryWrites=true&w=majority'
+import session from "express-session";
+//import session from "cookie-session";
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
 
 mongoose.connect(CONNECTION_STRING);
 
@@ -26,8 +24,8 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    //origin: process.env.NODE_ENV === "production" ? process.env.FRONTEND_URL : process.env.FRONTEND_URL_LOCAL,
-    origin: 'https://a6--gilded-khapse-a03d2c.netlify.app'
+    origin: process.env.NODE_ENV === "production" ? process.env.FRONTEND_URL : process.env.FRONTEND_URL_LOCAL,
+    //origin: 'https://a6--gilded-khapse-a03d2c.netlify.app'
   })
 );
 const sessionOptions = {
@@ -48,7 +46,6 @@ app.use(
 
 app.use(express.json());
 UserRoutes(app);
-//AssignmentRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
 Lab5(app);

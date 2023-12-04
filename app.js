@@ -6,7 +6,6 @@ import Hello from "./hello.js";
 import Lab5 from "./lab5.js";
 import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
-//import AssignmentRoutes from "./assignment/routes.js";
 import UserRoutes from "./users/routes.js";
 //import session from "express-session";
 import session from "cookie-session";
@@ -26,7 +25,8 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.NODE_ENV === "production" ? process.env.FRONTEND_URL : process.env.FRONTEND_URL_LOCAL,
+    //origin: process.env.NODE_ENV === "production" ? process.env.FRONTEND_URL : process.env.FRONTEND_URL_LOCAL,
+    origin: 'https://a6--gilded-khapse-a03d2c.netlify.app'
   })
 );
 const sessionOptions = {

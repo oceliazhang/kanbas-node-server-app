@@ -28,6 +28,7 @@ app.use(
     //origin: 'https://a6--gilded-khapse-a03d2c.netlify.app'
   })
 );
+app.options('*', cors());
 const sessionOptions = {
   secret: "any string",
   resave: false,
